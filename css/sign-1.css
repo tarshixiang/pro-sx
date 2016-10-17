@@ -1,0 +1,95 @@
+.success{
+	width: 990px;height: 440px;margin: 0 auto;border-top: 5px solid #6d9d03;
+}
+.success a {
+	color: #6d9d03;
+}
+.success a:hover {
+	color: #90c31f;
+}
+
+
+
+
+.success .su-top{
+	height: 271px;background: white;margin-bottom: 20px;border: 1px solid #ccc;
+	background: url(../img/winimg.png) 700px 100px no-repeat white;
+}
+.su1{
+	padding-top: 30px;text-align: center;
+}
+.su1 b {
+	margin: 10px 0 0 340px; width: 38px;height: 38px;background: url(../img/allbgs.png) 0 -139px no-repeat;display: block;float: left;
+}
+
+.su1 em{
+	float: left;padding-left: 20px;
+}
+.su1 em .p1 {    font-size: 16px;color: #90c31f; line-height:30px;}
+.su1 em .username {
+	padding: 0 30px 0 0;
+}
+
+
+.su2{
+	padding-left: 80px;margin-top: 65px;
+}
+.su2 li {
+	height: 32px; line-height: 32px; margin-bottom: 10px;	
+}
+.su2 li .p2 {
+	color: #999;
+}
+.su2 li.li-1 em{
+	width: 26px; height: 26px; margin-top:3px; display: block; float: left;
+	background: url(../img/allbgs.png) 0 -48px no-repeat;
+}
+.su2 li.li-1 p {
+	float: left; font-size: 16px; padding-left: 10px;
+}
+.su2 li .phone{
+	width: 200px; height: 30px; border: none; border: 1px solid #ccc;
+}
+.hq{
+	width: 120px; height: 32px; text-align: center; line-height: 32px; border: none;
+	background: #90c31f;color: white;border-radius: 5px;margin-left: 10px;cursor: pointer;
+}
+.su2 li .test{
+	width: 100px; height: 30px;border: 1px solid #ccc;
+}
+.yz{
+	width: 90px; height: 32px; background: #f60;line-height: 32px; 
+	border-radius: 5px;margin-left: 10px;border: none;cursor: pointer;
+}
+
+
+
+.success .su-bottom{
+	height: 140px;background: white;border: 1px solid #ccc;
+}
+.su-bottom .p3{
+	height: 30px;line-height: 30px;color: #333; padding-left: 30px;font-size: 18px;border-bottom: 1px solid #ccc;
+}
+.su-bottom .spell{
+	border: 1px solid #ccc;width: 1px ;height: 108px;background: #ccc;
+}
+.su-bottom div{
+	float: left;width: 492px; border-right: ;
+}
+.su-bottom b {
+	width: 60px;height: 60px;margin: 20px 10px 0 80px;
+	 background: url(../img/allbgs.png) 0 -237px no-repeat;display: inline-block;
+}
+.su-bottom em {
+	width: 60px;height: 60px; margin: 20px 10px 0 80px;
+	background: url(../img/allbgs.png) 0 -177px no-repeat;display: inline-block;
+}
+.su-bottom div .mess {
+	width: 300px;height: 200px;float: left;margin-top: 20px;
+}
+.su-bottom div .mess a{
+	font-size: 14px;line-height: 22px;
+}
+.su-bottom div .mess .p4{
+	color: #999;line-height: 20px;
+}

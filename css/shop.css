@@ -1,0 +1,207 @@
+#wrap-banner{
+	width: 100%;height: 35px;position: absolute;
+}
+.banner-li2{
+	display: none;
+}
+#wrap-shop{
+	width: 100%;margin-top: 35px;overflow: hidden;
+}
+#wrap-shop .shop{
+	width: 1190px;margin: 0 auto; overflow: hidden;
+}
+.shop .shop-top{
+	height: 25px;margin: 20px 0;
+}
+
+.shop-top .shop-logo{
+	width: 20px;height: 13px;background: url(../img/tubiao.png) 0 -92px no-repeat;
+	display: inline-block;margin-top: 5px;
+}
+.shop-top span{
+	line-height: 25px; padding-left: 5px; height: 25px;
+}
+.shop-top a {
+	line-height: 25px; padding: 0 4px; display: inline-block;
+}
+.shop-top a:hover{
+	color: #FF6600;
+}
+
+.shop .shop-bottom{
+	overflow: hidden;
+}
+
+.shop-li .types-ul li a.a-act{
+	color: #FF6600;
+}
+.shop-li .types-ul li a:hover{
+	color: #FF6600;
+}
+.shop-li  .types-ul{
+	width: 188px;border: 1px solid #F5F5F5;
+}
+.shop-li .types-ul li{
+	width: 188px;border-bottom: 1px solid #ccc;background: url(../img/tubiao.png) 7px -757px  no-repeat #F5F5F5;
+	text-indent: 45px;cursor: pointer;line-height: 32px;
+}
+.shop-li  .types-ul li.shop-spell{
+	border-top: 2px solid #6d9d03;
+}
+.shop-li .types-ul li a {
+	color: #6d9d03;font-size: 14px;
+}
+.shop-li  .types-ul li ul{
+	position: relative;
+}
+.shop-li .er-ul li {
+	width: 188px;text-indent: 55px;background: url(../img/tubiao.png) 25px -847px white;border: none;
+}
+.shop-li .er-ul li a {display: none;
+	color: black;font-size: 12px;
+}
+.shop-li .san-ul li{display: none;
+	background: white;border: none;line-height: 20px;width: 188px;
+}
+.shop-li .san-ul li a{
+	color: #666;
+}
+.shop-li .histroy{
+	border: 1px solid #ccc;border-top: none;
+}
+.shop-li  .histroy h3{
+	width: 188px;border-top: 2px solid #6D9D03;margin-top: 20px;display: block;font-size: 14px;
+	height: 28px;line-height: 30px;text-indent: 10px;border-bottom: 1px solid #ccc;
+}
+.shop-li .histroy ul li{
+	width: 188px;height:80px;margin: 10px 0; border-bottom: 1px solid #F5F5F5;margin-bottom: 20px;
+}
+.shop-li  .histroy p{
+	width: 120px;line-height: 16px;font-size: 12px;
+}
+.shop-li  .histroy p.shop-p{
+	color: #FF6600;margin-top: 5px;
+}
+.shop-li .histroy .delete{
+	width: 188px;height: 34px;cursor: pointer;line-height: 34px;text-indent: 90px;
+	background: url(../img/tubiao.png) 0 -877px #f5f5f5 no-repeat;color: #666666;
+}
+
+.shop-bottom .shops{
+	margin-left: 20px;width: 960px;
+}
+.shops h3{
+	height: 30px;line-height: 30px;text-indent: 10px;
+}
+.shops .tips{
+	width: 960px;overflow: hidden;border: 1px solid #ccc;margin-top: 10px;
+}
+.shops .tips li.tips-li {
+	width: 960px;border-bottom: 1px solid #ccc;
+}
+.shops .tips span{
+	width: 96px;line-height: 28px; background: #F5F5F5;display: block;float: left;text-indent: 15px;
+}
+.shops .tips span.tips-span{
+	height: 56px;width: 96px;display: block;float: left;
+}
+.shops .tips ul{
+	width: 860px;
+}
+.shops .tips ul li{
+	float: left;
+}
+.shops .tips ul li a{
+	padding:10px 15px 0 12px;display: block;float: left;
+}
+
+.shops .fenlei{
+	margin: 60px 0 30px 0 ;width: 960px; height: 34px;background: #F5F5F5;
+}
+.shops .fenlei span{
+	float: left;width: 40px;height: 28px;border: 1px solid #ccc;margin: 2px 5px 0 5px;
+	text-align: center;line-height: 28px;cursor: pointer;
+}
+.shops .fenlei span.fenlei-act{
+	background: white;
+}
+.shops .fenlei div{
+	float: right;
+}
+.shops .fenlei div em{
+	margin: 8px 10px 0 0;
+}
+.shops .fenlei div b{
+	width: 20px;height: 20px;line-height: 20px;text-align: center;border: 1px solid #666666;
+	background: white;display: block;float: left;margin:6px 5px 0 0;cursor: pointer;
+}
+.shops .fenye-butt{
+	padding-left: 300px;height: 32px;line-height: 32px;
+}
+.shops .fenye-butt ul li{
+	float: left;width: 64px;border: 1px solid #ccc;margin:0 5px;text-align: center;
+}
+.shops .fenye-butt ul li.num{
+	width: 32px;margin: 0;
+}
+.shops .fenye-butt div .fenye{
+	width: 32px;height: 14px;text-indent: 14px;margin: 0 10px;
+}
+.shops .shop-list{
+	width: 960px;height: 1900px;overflow: hidden;position: relative;
+}
+.shops .shop-list ul{
+	position: absolute;overflow: hidden;left: 0;top: 0;
+}
+.shops .shop-list ul li{
+	position: relative;float: left;height: 348px;z-index: 1;
+	 border: 1px solid #ccc ;width: 218px;margin: 0 20px 30px 0;
+}
+
+.shops .shop-list ul li p {
+	width: 210px; margin-left:6px ;line-height: 18px;
+}
+.shops .shop-list ul li .s-p1{
+	color: #FF6600;
+}
+.shops .shop-list ul li .s-p1 span{
+	font-size: 24px;
+}
+.shops .shop-list ul li .s-p2 {
+	height: 36px;
+}
+.shops .shop-list ul li .s-p2 a{
+	color: #999;
+}
+.shops .shop-list ul li .s-p2 a:hover{
+	color: #FF6600;
+}
+.shops .shop-list ul li .s-p3{
+	border-bottom: 1px solid #ccc;height: 36px;
+}
+
+.shops .shop-list ul li .s-p4 b{
+	width: 84px;height: 15px;display: block;float: left;margin-top: 10px;
+	background: url(../img/tubiao.png) -367px -55px no-repeat;
+}
+.shops .shop-list ul li .s-p4 span{
+	display: block; float: left;margin-left: 30px;line-height: 30px;
+}
+.shops .shop-list ul li .shop-buy{
+	width: 90px;height: 22px;position: absolute;left: 10px;bottom: 10px;background: #FF6600;
+	color: white;border-radius: 4px;line-height: 22px;display: none;cursor: pointer;
+}
+.shops .shop-list ul li .shop-buy i{
+	width: 16px;height: 16px;background: url(../img/tubiao.png) -2px -940px no-repeat;
+	display: block;float: left;margin: 2px 10px 0 5px;
+}
+.shops .shop-list ul li .shop-sc{
+	width: 76px;height: 20px;position: absolute;right: 20px;bottom: 10px;display: none;
+	border: 1px solid #FF6600;line-height: 20px;color: #FF6600;border-radius: 4px;cursor: pointer;
+}
+.shops .shop-list ul li .shop-sc i{
+	width: 16px;height: 16px;background: url(../img/tubiao.png) -2px -956px no-repeat;
+	display: block;float: left;margin: 2px 10px 0 5px;
+}
+
+#msg{position:fixed; top:50%;margin-top: -100px; right:35px; z-index:10000;width: 200px; height:52px; line-height:52px; font-size:20px; text-align:center; color:#fff; background:#360; display:none}

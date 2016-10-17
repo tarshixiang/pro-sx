@@ -1,0 +1,259 @@
+#wrap-car{
+	width: 100%;overflow: hidden;
+}
+#wrap-car .car{
+	margin: 0 auto;width: 998px;overflow: hidden;
+} 
+.car .car-top {
+	margin-top: 20px;overflow: hidden;
+}
+.car-top .car-top-mess{
+	margin-top: 10px;
+}
+.car-top img{
+	float: left;
+}
+.car-top b{
+	line-height: 56px;color: #666;width: 90px;height: 56px;
+    font-size: 18px; display: block;float: left;margin-left: 20px;
+}
+.car-top .progress_bar{
+	width: 490px;height: 28px;background: url(../img/shopcars/progress_bar.png) 0 0 no-repeat;
+}
+.car-top span{
+	width: 160px;text-align: center;height: 16px;line-height: 16px;display: inline-block;margin-right: 5px;
+}
+/*购物车列表样式*/
+.car-content .shop-cars{
+	width: 996px;border: 1px solid #ccc;overflow: hidden;margin-top:40px;
+}
+.shop-cars .car-null{
+	height: 190px;display: none;
+}
+.shop-cars .car-null i{
+	width: 43px;height: 38px;display: block;background: url(../img/tubiao.png) -337px -357px no-repeat;
+	margin: 50px 30px 0 300px;
+}
+.shop-cars .car-null .box{
+	margin-top:50px ; line-height: 20px;
+}
+.shop-cars .car-null .box a{
+	color: #77B001;
+}
+.shop-cars .car-has {
+	display: block;overflow: hidden;
+}
+.shop-cars .car-has .car-title{
+	background: #F5F5F5;width: 998px;overflow: hidden;
+}
+.shop-cars .car-has .car-title li {
+	float: left;height: 30px;line-height: 30px;font-size: 14px;
+	color: #333;text-align: center;margin-left: 20px ;
+}
+
+.shop-cars .car-has li.li-1 {
+	width: 420px;
+}
+.shop-cars .car-has li.li-2 {
+	width: 100px;
+}
+.shop-cars .car-has li.li-3 {
+	width: 110px;
+}
+.shop-cars .car-has li.li-4 {
+	width: 110px;
+}
+.shop-cars .car-has li.li-5 {
+	width: 88px;
+}
+
+.shop-cars .car-has .car-list div {
+	height: 79px;border-bottom: 1px solid #ccc;
+}
+.shop-cars .car-has .car-list div ul{
+	overflow: hidden;
+}
+.shop-cars .car-has .car-list div li{
+	float: left;
+}
+.shop-cars .car-has .car-list li{
+	margin-left: 20px ;text-align: center;line-height: 80px;
+}
+.car-list li img {
+ 	float: left;width: 60px;height: 60px;margin:8px 10px 0 0;border: 1px solid #ccc;
+}
+.car-list li span {
+ 	float: left;
+}
+.car-list li input{
+	width: 20px;height: 20px;line-height: 12px;text-align: center;
+}
+.car-list li .txt{
+	width: 32px;margin: 0 5px;text-align: center;
+}
+.car-list li.li-4{
+	color: #FF6600;
+}
+.car-list li.li-4 a{
+	color: #FF6600;
+}
+.car-list li.li-5 a{
+	display: block;margin-top: 20px;line-height: 12px;
+}
+
+/*礼券样式*/
+.car-content .tickets{
+	width: 494px;height: 40px;border: 1px solid #ccc;margin-top: 30px;
+}
+.car-content .tickets .box1{
+	width: 15px;height: 15px;display:block; float: left;
+	background: url(../img/tubiao.png) -89px -911px no-repeat; margin: 13px 10px 0 20px;;
+}
+
+.car-content .tickets span{
+	line-height: 40px;margin-right: 20px;
+}
+.car-content .tickets .box2{
+	border: 1px solid #ccc;width: 240px;height: 22px;margin-top:8px;
+}
+.car-content .tickets .box2 input{
+	border: none;width: 217px;height: 22px;float: left;
+}
+.car-content .tickets .box2 i{
+	width: 22px;height: 22px;float: right;
+    cursor: pointer;background: url(../img/tubiao.png) -124px -911px no-repeat;
+}
+.car-content .tickets button{
+	float: left;width: 70px;height: 24px;margin: 8px 0 0 20px; font-size: 14px;background-color: #f60;
+    color: #fff;line-height: 24px;text-align: center;cursor: pointer;border: none;outline: none;border-radius:5px ;
+}
+
+/*价格的样式*/
+.car-content .money {
+	margin-top: 30px;overflow: hidden;font-size: 14px;
+}
+.car-content .money div{
+	float: right;margin-bottom: 5px;
+}
+.line{
+	width: 1000px;height: 1px;background: #ccc;margin-top: 10px;
+}
+.car-content .money .box3,.zongjia,.cuxiao,.lijuan{
+	display: inline-block;margin-left: 50px;
+}
+.car-content .money .shopNum,.cuxiao,.lijuan{
+	color: #FF6600;
+}
+.car-content .money .bigZ{
+	font-size: 24px;color: #FF6600;line-height: 40px;
+}
+.car-content .money button{
+	width: 190px;height: 33px;line-height: 33px;margin-left: 20px;border: none;border-radius:5px ;
+    background-color: #f60;color: #fff;text-align: center;font-size: 16px;cursor: pointer;outline: none;
+}
+
+/*tab切换回收站 收藏夹 推荐*/
+ .car-content .car-skills {
+ 	width: 990px;overflow:hidden;margin: 40px auto;
+}  
+ .car-content .car-skills .skills-list li{
+ 	float: left;border: 1px solid #ccc; text-align: center;height: 28px;line-height: 30px;width: 98px;cursor: pointer;
+ }
+.car-content .car-skills .skills-list li.li-click{
+	border: 1px solid #FF6600;color: #FF6600;
+}
+ .car-content .car-skills .skills-box {
+ 	width: 988px;height: 290px;overflow: hidden;position: relative;border: 1px solid #ccc;
+ }
+ .car-content .car-skills .skills-box li{
+ 	position: absolute;display: none;width: 2000px;left: 0;top: 0;
+ }
+ .car-content .car-skills .skills-box li.ul-act{
+ 	display: block;
+ }
+.car-skills .skills-box li div{
+	float: left;padding: 20px 5px 0 5px;width: 187px; height: 290px;text-align: center;
+	z-index: 1;cursor: pointer;position: relative;
+}
+.car-skills .skills-box li div img{
+	width: 180px;height: 180px;
+}
+.car-skills .skills-box li input{
+	position: absolute;left: 40px;bottom:22px;width: 110px;height: 22px;color: #FF6600; border: 1px solid #FF6600;
+	background: white;border-radius: 5px;
+}
+.car-skills .skills-box li p{
+	line-height: 22px;width: 180px;
+}
+.car-skills .skills-box li .p1{
+	color: #FF6600;font-size: 22px;
+}
+.car-skills .skills-box li p:hover{
+	color: #FF6600;
+}
+.car-skills .skills-box .prev{
+	width: 20px;height: 40px;position: absolute;left:0 ; top: 130px;cursor: pointer;text-align: center;
+	line-height: 40px;background: url(../img/tubiao.png) -565px 0px no-repeat;z-index: 10;display: none;
+}
+.car-skills .skills-box .next{
+	width: 20px;height: 40px; position: absolute;right: 0; top: 130px;cursor: pointer;text-align: center;
+	line-height: 40px;background:url(../img/tubiao.png) -587px 0px no-repeat; ;z-index: 10;display: none;
+}
+/*弹出层*/
+#tcc {
+	width: 100%;height: 100%;background: black;opacity: 0.1; position: fixed;z-index:10;left: 0;top: 0;
+	display: none;filter:alpha(opacity=10);
+}
+.alter{
+	width:420px;height: 160px; border:6px solid #ccc; position: fixed;left: 50%;top: 50%;
+	margin-left: -210px;margin-top: -160px;z-index: 100;background: white;display: none;
+}
+.alter .close{
+	width: 420px;height: 40px;position: relative;
+}
+.alter .close i {
+	width: 14px;height: 14px;background: url(../img/tubiao.png) -107px -912px no-repeat;display: block;
+	position: absolute;right: 20px;top: 10px;cursor: pointer;
+}
+.alter .news{
+	width: 420px;height: 26px;
+}
+.alter .news i{
+	width: 26px;height: 26px;background: url(../img/tubiao.png) -251px -911px no-repeat ;display: block;
+	left: 78px;margin:0 10px 0 78px;float: left;
+}
+.alter .news span{
+	width: 250px;line-height: 26px;color: #FF6600;
+}
+.alter .sure{
+	width: 100px;height: 30px;background: #FF6600;color: white;border:0;border-radius: 5px;outline: none;
+	margin: 30px 20px 0 160px;cursor: pointer;
+}
+
+
+.js{
+	width:420px;height: 160px; border:6px solid #ccc; position: fixed;left: 50%;top: 50%;
+	margin-left: -210px;margin-top: -160px;z-index: 100;background: white;display: none;
+}
+.js .js-close{
+	width: 420px;height: 40px;position: relative;
+}
+.js .js-close i {
+	width: 14px;height: 14px;background: url(../img/tubiao.png) -107px -912px no-repeat;display: block;
+	position: absolute;right: 20px;top: 10px;cursor: pointer;
+}
+.js .js-news{
+	width: 420px;height: 26px;
+}
+.js .js-news i{
+	width: 26px;height: 26px;background: url(../img/tubiao.png) -251px -911px no-repeat ;display: block;
+	left: 78px;margin:0 10px 0 78px;float: left;
+}
+.js .js-news span{
+	width: 250px;line-height: 26px;color: #FF6600;
+}
+.js .js-sure{
+	width: 100px;height: 30px;background: #FF6600;color: white;border:0;border-radius: 5px;outline: none;
+	margin: 30px 20px 0 160px;cursor: pointer;
+}
+

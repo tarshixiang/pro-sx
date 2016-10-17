@@ -1,0 +1,28 @@
+[
+	{	
+		"img":"../img/cont-0-bottom1.gif",
+		"title":"爱尔康视康晴踩天天抛10片装",
+		"price" : "￥68"
+	},
+	{	
+		"img" :  "../img/cont-0-bottom2.gif",
+		"title":"安瞳Mandol日抛5片装",
+		"price": "￥49"	
+	},
+	{
+		"img"  :"../img/cont-0-bottom3.gif",
+		"title":"强生润眸两周抛6片装",
+		"price" : "￥83"
+	},
+	{
+		"img":"../img/cont-0-bottom4.gif",
+		"title":"沙福隆多功能护理液380ml",
+		"price": "￥38"
+	
+	},
+	{
+		"img":"../img/cont-0-bottom5.gif",
+		"title":"经典半框近视眼镜直降100元",
+		"price": "￥69"
+	}	
+]

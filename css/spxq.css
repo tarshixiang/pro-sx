@@ -1,0 +1,346 @@
+#wrap-banner{
+	width: 100%;height: 35px;position: absolute;
+}
+
+#wrap-xq{
+	width: 100%;overflow: hidden;margin-top: 35px;
+}
+#wrap-xq .xq{
+	width: 1190px;margin: 0 auto; padding: 15px 0;
+}
+.xq .xq-top{
+	height: 25px;
+}
+.xq-top .xq-logo{
+	width: 20px;height: 13px;background: url(../img/tubiao.png) 0 -92px no-repeat;
+	display: inline-block;margin-top: 5px;
+}
+.xq-top span{
+	line-height: 25px; padding-left: 5px; height: 25px;
+}
+.xq-top a {
+	line-height: 25px; padding: 0 4px; display: inline-block;
+}
+.xq-top a:hover{
+	color: #FF6600;
+}
+.xq .xq-content {
+	padding-top: 15px;
+}
+.xq-content .small-pic{
+	width: 400px;height: 400px;border: 1px solid #ccc;position: relative;
+}
+.xq-content .small-pic .big{
+	width: 160px; height: 160px; background: #ccc;opacity: 0.5;position: absolute;
+	cursor: move;display: none;
+}
+.xq-content .small-pic .bigImg{
+	position: absolute;left: 420px;width: 400px;height: 400px;border: 1px solid #ccc;
+	display: none;overflow: hidden;z-index: 100;
+}
+.xq-content .small-pic .bigImg img{
+	position: absolute;width: 1000px;height: 1000px;
+}
+.xq-content .small-pic li{
+	display: none; position: absolute;
+}
+.xq-content .small-pic li.xq-act{
+	display: block;
+}
+
+.xq-content .small-logo li{
+	width: 66px;height: 66px;border: 1px solid #ccc; float: left;margin:5px;cursor: pointer;
+}
+.xq-content .small-logo li.tab-small{
+	border:2px solid #90C31F;
+}
+.xq-content .fenxiang li{
+	float: left;margin: 5px;
+}
+
+.xq-content .shop-center{
+	margin:0 20px;width: 620px;z-index: 1;position: relative;
+}
+.xq-content .shop-center .shop-center-top,.shop-center-middle{
+	border-bottom: 1px dashed #ccc;
+}
+.shop-center .shop-center-top .top-p1{
+	font-size: 16px;line-height: 20px;color: #333333;margin-bottom: 5px;
+}
+.shop-center .shop-center-top .top-p2{
+	font-size: 14px;line-height: 20px;color: #ff6600;margin-bottom: 10px;
+}
+.shop-center .shop-center-middle {
+	margin-top: 15px;
+}
+.shop-center .shop-center-middle span{
+	color: #666; width: 70px;height: 28px;line-height: 28px;padding: 0 5px;
+}
+.shop-center .shop-center-middle span.price-1 {
+	color: #FF6600;font-size: 20px;margin-right: 50px;
+}
+.shop-center .shop-center-middle span.price-2 {
+	text-decoration: line-through;margin-right: 40px;
+}
+.shop-center .shop-center-middle span.price-3 {
+	margin-left: 110px;
+}
+.shop-center .shop-center-middle span.price-4 {
+	margin-left:50px;
+}
+.shop-center-middle .cx-ul li {
+	color: #FF6600;
+}
+.shop-center-middle .cx-ul span.color-span{
+	width: 50px;background: #FF6600;color: white;text-align: center;line-height: 24px;
+	height: 24px;margin-right: 10px;
+}
+.shop-center .shop-center-bottom {
+	margin-top: 15px;
+}
+.shop-center .shop-center-bottom span {
+	color: #666; width: 70px;height: 28px;line-height: 28px;padding: 0 5px;
+}
+.shop-center .shop-center-bottom li .pic li {
+	position: relative;
+	float: left;border: 1px solid #ccc; margin-right: 5px;cursor: pointer;
+}
+.shop-center .shop-center-bottom li .pic li.xq-li i{
+	background: url(../img/tubiao.png) -30px -577px no-repeat;	
+	width: 70px;height: 70px;position: absolute;left: 0;top: 0;
+}
+.shop-center .shop-center-bottom li .pic li:hover{
+	border: 1px solid #90C221;
+}
+.shop-center-bottom li .left .box {
+	width: 520px;margin-top: 5px;
+}
+.shop-center-bottom li .left .att-l{
+	width: 55px;height: 24px;line-height: 24px;text-align: center;float: left;
+	background: #90c31f;color: #fff;margin-right: 10px;
+}
+.shop-center-bottom li .left .att-r{
+	width: 55px;height: 24px;line-height: 24px;text-align: center;float: left;
+	background: #90c31f;color: #fff;margin-right: 10px;
+}
+.shop-center-bottom  li .box .L{
+	cursor: pointer; position: relative;width: 80px;height: 30px;float: left;
+}
+.shop-center-bottom  li .box .R{
+	cursor: pointer; position: relative;width: 80px;height: 30px;float: left;
+}
+.shop-center-bottom  li .box li {
+	background-color: #fff;float: left;width: 40px;
+    height: 28px;border: 1px solid #ccc;text-align: center;line-height: 30px;margin: 3px;
+}
+.shop-center-bottom  li .box li:hover{
+	border: 1px solid #FF6600;
+}
+.shop-center-bottom  li .box .R ul{
+	position: absolute;left: 5px;top: 25px;width: 338px;height: 182px;
+	border: 1px solid #ccc;z-index: 100;display: none;background: #fff;
+}
+.shop-center-bottom  li .box .L ul{
+	position: absolute;left: 5px;top: 25px;width: 338px;height: 182px;
+	border: 1px solid #ccc;z-index: 100;display: none;background: #fff;
+}
+.shop-center-bottom  li .box a {
+	margin-right: 10px;line-height: 24px;float: left;
+
+}
+.shop-center-bottom  li .box em {
+	width: 44px;height: 22px; border:1px solid #ccc;border-right: none;
+	float: left;text-align: center;line-height: 22px;
+}
+.shop-center-bottom  li .box b{
+	width: 22px;height: 22px;border: 1px solid #ccc;margin-right: 10px;
+	background: url(../img/tubiao.png) -124px -911px no-repeat;float: left;
+}
+.shop-center-bottom  li .box .jian,.jia{
+	width: 22px;height: 22px;text-align: center;line-height: 22px;cursor: pointer;
+	border: none;border: 1px solid #ccc;outline: none;float: left;
+}
+.shop-center-bottom  li .box .inp-l,.inp-r{
+	width: 30px;height: 20px;line-height: 22px;margin: 0 10px;text-align: center;float: left;
+}
+.shop-center-bottom .buy{
+    width: 150px;height: 32px;line-height: 32px;text-align: center;border-radius: 5px;cursor: pointer;margin-top: 8px;
+    border: 1px solid #ff6600;background: #f60;margin-left: 80px;color: #fff;outline: none;font-size: 14px;font-weight: bold;
+}
+.shop-center-bottom .push{
+    width: 150px;height: 32px;line-height: 32px;text-indent: 20px;border-radius: 5px;
+    cursor: pointer;font-size: 14px;font-weight: bold;margin-top: 8px;
+    border: 1px solid #ff6600;background:url(../img/tubiao.png)  20px -39px no-repeat;margin-left: 20px;color: #FF6600;outline: none;
+}
+.shop-center-bottom .li-ul{
+	margin-top: 20px;height: 20px;
+} 
+.shop-center-bottom .li-ul a{
+	float: left;
+} 
+.shop-center-bottom .li-ul span{
+	margin-top: -5px;
+} 
+.shop-center-bottom .li-ul i{
+	width: 20px;height: 20px;display: inline-block;margin:0  4px 0 10px;float: left;
+}
+.shop-center-bottom .li-ul i.li-ul-1{
+	background: url(../img/tubiao.png)-63px -940px no-repeat;
+}
+.shop-center-bottom .li-ul i.li-ul-2{
+	background: url(../img/tubiao.png)-84px -940px no-repeat;
+}
+.shop-center-bottom .li-ul i.li-ul-3{
+	background: url(../img/tubiao.png)-105px -940px no-repeat;
+}
+.shop-center-bottom .li-ul i.li-ul-4{
+	background: url(../img/tubiao.png)-126px -940px no-repeat;
+}
+.xq-types{
+	margin-top: 40px;
+}
+.xq-types .types-left .types-ul{
+	width: 190px;
+}
+.xq-types .types-left .types-ul li{
+	width: 188px;height: 32px;border-bottom: 1px solid #ccc; 
+	text-indent: 25px;cursor: pointer;line-height: 32px;background: #F7F7F7;
+}
+.xq-types .types-left  .types-ul li.xq-spell{
+	border-top: 2px solid #6d9d03;
+}
+.xq-types .types-left .types-ul li a {
+	color: #6d9d03;font-size: 14px;
+}
+.xq-types .types-left .histroy{
+	border: 1px solid #ccc;border-top: none;
+}
+.xq-types .types-left .histroy h3{
+	width: 188px;border-top: 2px solid #6D9D03;margin-top: 20px;display: block;font-size: 14px;
+	height: 28px;line-height: 30px;text-indent: 10px;border-bottom: 1px solid #ccc;
+}
+.xq-types .types-left .histroy ul li{
+	width: 188px;height:80px;margin: 10px 0; border-bottom: 1px solid #f5f5f5;
+}
+.xq-types .types-left .histroy p{
+	width: 120px;line-height: 16px;font-size: 12px;
+}
+.xq-types .types-left .histroy p.xq-p{
+	color: #FF6600;margin-top: 5px;
+}
+.xq-types .types-left .histroy .delete{
+	width: 188px;height: 34px;cursor: pointer;line-height: 34px;text-indent: 90px;
+	background: url(../img/tubiao.png) 0 -877px #f5f5f5 no-repeat;color: #666666;
+}
+.xq-types .types-right {
+	margin-left: 20px;width: 970px;
+}
+.xq-types .types-right .types-right-top{
+	border: 1px solid #ccc;background: #F7F7F7;height: 35px;
+}
+.xq-types .types-right .types-right-top li{
+	float: left;border-right: 1px solid #ccc;width: 108px;height: 33px;
+	line-height: 35px;text-align: center;background: white;cursor: pointer;
+}
+.xq-types .types-right .types-right-top li.xq-l{
+	color: #FF6600;border-top: 2px solid #FF6600;
+}
+.xq-types .types-right .types-right-top li.last{
+	float: right;width: 115px;position: relative;background: #ccc;height: 35px;
+}
+.xq-types .types-right .types-right-top li.last img{
+	position: absolute; left: 0;top: -120px;display: none;
+}
+.xq-types .types-right .types-right-top li.last i{
+	width: 18px;height: 23px;display:block;background: url(../img/tubiao.png) -20px -963px no-repeat;
+	left: 85px;position: absolute;top: 6px;
+}
+.xq-types .types-right .types-right-bottom{
+	position: relative;
+}
+.xq-types .types-right .types-right-bottom li{
+	position: relative;left: 0;top: 0;display: none;
+}
+.xq-types .types-right .types-right-bottom li.img-act{
+	display: block;
+}
+.types-right .types-right-bottom .fabiao {
+	height: 110px;padding: 10px 0;border: 1px solid #ccc;
+}
+.types-right-bottom .fabiao .word-1{
+	width: 225px;text-align: center;border-right: 1px solid #F5F5F5;
+}
+.fabiao .word-1 .word-p1{
+	font-size: 14px;line-height: 24px;color: #666;
+}
+.fabiao .word-1 .word-p2{
+	font-size: 40px;line-height: 44px;font-weight: bold;color: #f60;
+}
+.fabiao .word-1 .word-p3{
+	margin: 4px 0 10px 0;
+}
+ .fabiao .word-1 .word-p4 i{
+	width: 84px;height: 15px;background: url(../img/tubiao.png) -367px -135px no-repeat ;
+	display: block;float: left;margin-left: 25px;
+} 
+ .fabiao .word-1 .word-p4 b{
+ 	float: left;
+} 
+.types-right-bottom  .fabiao .word-2{
+	width: 280px;margin: 18px 0 0 20px;border-right: 1px solid #F5F5F5;
+}
+.fabiao .word-2 i{
+	width: 84px;height: 15px;overflow: hidden;float: left;display: inline-block;	    
+}
+.fabiao .word-2  .dutiao{
+	width: 100px;height: 5px;float: left;margin: 6px 5px 0 5px;background: #ccc;border-radius: 2px;
+}
+.fabiao .word-2 .wor-box1 i{
+	background: url(../img/tubiao.png) -367px -55px no-repeat;
+}
+.fabiao .word-2 .wor-box2 i{
+	background: url(../img/tubiao.png) -367px -71px; no-repeat;
+}
+.fabiao .word-2 .wor-box3 i{
+	background: url(../img/tubiao.png) -367px -87px; no-repeat;
+}
+.fabiao .word-2 .wor-box4 i{
+	background: url(../img/tubiao.png) -367px -103px no-repeat;
+}
+.fabiao .word-2 .wor-box5 i{
+	background: url(../img/tubiao.png) -367px -119px no-repeat;
+}
+.fabiao .word-2 .wor-box1 .dutiao{
+	background: #6d9d03;
+}
+.types-right-bottom  .fabiao .word-3{
+	width: 380px;height: 110px;margin-top: 18px;
+}
+.fabiao .word-3 div{
+	float: left; width: 148px;height: 33px;
+}
+.fabiao .word-3 p{
+	width: 345px;height: 32px;line-height: 16px;display: block;margin: 10px 0 0 30px;text-align: center;float: left;
+}
+.fabiao .word-3 p a{
+	color: #6D9D03;padding: 0 10px;
+}
+.fabiao .word-3 b{
+	float: left;width: 64px;height: 33px;line-height: 35px;display: block;margin-left:20px ;
+}
+.fabiao .word-3 .butt-1{
+	border: 1px solid #FF6600;cursor: pointer;color: #FFFFFF;font-size: 16px;
+    line-height: 35px;background-color: #f60;font-weight: 100;margin: 0 30px 0 30px;
+}
+.fabiao .word-3 .butt-1 i{
+	width: 23px;height: 23px;display: block;float: left;margin: 7px;
+	background: url(../img/tubiao.png) -205px -911px; no-repeat;
+}
+.fabiao .word-3 .butt-2{
+	border: 1px solid #8fc31f;background-color: #fff;line-height: 35px;cursor: pointer;
+	font-size: 16px;font-weight: 100 ;color: #8fc31f;
+}
+.fabiao .word-3 .butt-2 i{
+	width: 25px;height: 23px;display: block;float: left;margin: 7px;
+	background: url(../img/tubiao.png) -446px -911px; no-repeat;
+}
